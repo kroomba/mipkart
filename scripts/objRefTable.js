@@ -89,6 +89,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.GoToLayout,
 		C3.Plugins.Audio.Acts.SetPlaybackRate,
 		C3.Plugins.Touch.Cnds.OnDoubleTapGestureObject,
+		C3.Plugins.Spritefont2.Cnds.CompareText,
 		C3.Plugins.System.Acts.SubVar
 	];
 };
