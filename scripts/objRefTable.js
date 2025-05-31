@@ -83,10 +83,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Acts.Stop,
 		C3.Plugins.System.Acts.RestartLayout,
 		C3.Plugins.Browser.Acts.RequestFullScreen,
-		C3.Plugins.Audio.Acts.SetPlaybackRate,
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.System.Acts.ResetGlobals,
 		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.System.Acts.GoToLayout,
-		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.Audio.Acts.SetPlaybackRate,
+		C3.Plugins.Touch.Cnds.OnDoubleTapGestureObject,
 		C3.Plugins.System.Acts.SubVar
 	];
 };
